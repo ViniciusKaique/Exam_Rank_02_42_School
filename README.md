@@ -13,9 +13,9 @@ In this repository, I have grouped together the various exercises that may appea
 | 	repeat_alpha		|	 ft_strdup			|	 ft_rrange			|  rev_wstr				|
 | 	rev_print			|	 ft_strpbrk			|	 hidenp				|  rostring				|
 | ✅ rot_13				|	 ft_strrev			|	 lcm				|  sort_int_tab			|
-| 	rotone				|	 ft_strrev			|	 paramsum			|  sort_list			|
+| ✅ rotone				|	 ft_strrev			|	 paramsum			|  sort_list			|
 | 	search_and_replace	|	 ft_strspn			|	 pgcd				|						|
-|	✅ ulstr				|	 is_power_of_2		|	 rstr_capitalizer	|						|
+| ✅ ulstr				|	 is_power_of_2		|	 rstr_capitalizer	|						|
 |						|	 last_word			|	 str_capitalizer	|						|
 |						| ✅ max					|	 tab_mult 			|						|
 |						|	 print_bits			|						|						|
