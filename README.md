@@ -11,7 +11,7 @@ In this repository, I have grouped together the various exercises that may appea
 | ✅	ft_strlen			|	 ft_strcmp			|	 ft_list_size		|  ft_list_remove_if	|
 | ✅	ft_swap				|	 ft_strcspn			|	 ft_range			| ✅ ft_split			|
 | ✅ repeat_alpha		|	 ft_strdup			|	 ft_rrange			|  rev_wstr				|
-| 	rev_print		   	|	 ft_strpbrk			|	 hidenp				|  rostring				|
+| ✅ rev_print		   	|	 ft_strpbrk			|	 hidenp				|  rostring				|
 | ✅ rot_13				|	 ft_strrev			|	 lcm				|  sort_int_tab			|
 | ✅ rotone				|	 ft_strrev			|	 paramsum			|  sort_list			|
 | ✅ search_and_replace	|	 ft_strspn			|	 pgcd				|						|
