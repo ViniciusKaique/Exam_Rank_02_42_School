@@ -17,7 +17,7 @@ In this repository, I have grouped together the various exercises that may appea
 | ✅ search_and_replace	|	 ft_strspn			|	 pgcd				|						|
 | ✅ ulstr				|	 is_power_of_2		|	 rstr_capitalizer	|						|
 |						|	 last_word			|	 str_capitalizer	|						|
-|						| ✅ max					|	 tab_mult 			|						|
+|						| ✅ max					|	✅ tab_mult 			|						|
 |						|	 print_bits			|						|						|
 |						|	 reverse_bits		|						|						|
 |						|	 snake_to_camel		|						|						|
