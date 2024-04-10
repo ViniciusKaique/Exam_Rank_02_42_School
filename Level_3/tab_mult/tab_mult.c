@@ -6,7 +6,7 @@
 /*   By: alex <alex@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/30 12:55:19 by alex              #+#    #+#             */
-/*   Updated: 2024/04/10 16:13:17 by alex             ###   ########.fr       */
+/*   Updated: 2024/04/10 16:21:09 by alex             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,7 +53,6 @@ void	put_nbr(int n)
 	}
 	else if (n < 10)
 		write(1, &decimal[n], 1);
-
 }
 
 void	tab_mult(int mult)
@@ -61,7 +60,7 @@ void	tab_mult(int mult)
 	int	i;
 
 	i = 1;
-	while (i < 10  && mult != -mult)
+	while (i < 10 && mult != -mult)
 	{
 		put_nbr(i);
 		put_str(" x ");
