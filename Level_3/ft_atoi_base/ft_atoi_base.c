@@ -6,43 +6,45 @@
 /*   By: alex <alex@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/10 16:19:47 by alex              #+#    #+#             */
-/*   Updated: 2024/04/11 02:49:59 by alex             ###   ########.fr       */
+/*   Updated: 2024/04/11 19:17:41 by alex             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_atoi_base(const char *str, int base)
 {
-	int	result;
-	int	sign;
-	int	i;
+	char	*number;
+	int		result;
+	int		sign;
+	int		i;
 
 	i = 0;
 	sign = 1;
-	result = 0;
-	if (base < 16)
+	number = (char *)str;
+	if (number[i] == '-')
 	{
-		if (str[i] == '-')
-		{
-			sign *= -1;
-			i++;
-		}
-		while (str[i++] != '\0')
-		{
-			if (str[i] >= '0' && str[i] <= '9')
-				result *= base + (str[i] - '0');
-			else if (str[i] >= 'A' && str[i] <= 'Z')
-				result *= base + (str[i] - '7');
-			else if (str[i] >= 'a' && str[i] <= 'z')
-				result *= base + (str[i] - 'W');
-		}
+		sign *= -1;
+		i++;
+	}
+	result = 0;
+	while (number[i] != '\0')
+	{
+		if (number[i] >= '0' && number[i] <= '9')
+			result = result * base + number[i] - '0';
+		else if (number[i] >= 'A' && number[i] <= 'F')
+			result = result * base + number[i] - '7';
+		else if (number[i] >= 'a' && number[i] <= 'f')
+			result = result * base + number[i] - 'W';
+		i++;
 	}
 	return (sign * result);
 }
 
+/*
 #include <stdio.h>
 
 int	main(void)
 {
-	printf("%d\n", ft_atoi_base(18790, 4));
+	printf("%d\n", ft_atoi_base("-aa", 16));
 	return (0);
 }
+*/
