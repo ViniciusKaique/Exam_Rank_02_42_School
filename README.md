@@ -12,7 +12,7 @@ In this repository, I have grouped together the various exercises that may appea
 | ✅	ft_swap				|	 ft_strcspn			|	 ft_range			| ✅ ft_split		≤≤|
 | ✅ repeat_alpha		|	 ft_strdup			|	 ft_rrange			|  rev_wstr				|
 | ✅ rev_print		   	|	 ft_strpbrk			|	 hidenp				|  rostring				|
-| ✅ rot_13				|	 ft_strrev			|	 lcm				|  sort_int_tab			|
+| ✅ rot_13				|	 ft_strrev			| ✅ lcm				|  sort_int_tab			|
 | ✅ rotone				|	 ft_strrev			|	 paramsum			|  sort_list			|
 | ✅ search_and_replace	|	 ft_strspn			| ✅ pgcd				|						|
 | ✅ ulstr				|	 is_power_of_2		|	 rstr_capitalizer	|						|
