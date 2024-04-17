@@ -6,7 +6,7 @@
 /*   By: alex <alex@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/17 13:26:04 by alex              #+#    #+#             */
-/*   Updated: 2024/04/17 14:21:04 by alex             ###   ########.fr       */
+/*   Updated: 2024/04/17 17:13:50 by alex             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,3 +26,9 @@ unsigned int	lcm(unsigned int a, unsigned int b)
 		div++;
 	}
 }
+
+/* int	main(void)
+{
+	("%d\n", lcm(42, 15));
+	return (0);
+} */
