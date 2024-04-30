@@ -16,7 +16,7 @@ In this repository, I have grouped together the various exercises that may appea
 | ✅ rotone				|	 ft_strrev			|	 paramsum			|  sort_list			|
 | ✅ search_and_replace	|	 ft_strspn			| ✅ pgcd			 |						 |
 | ✅ ulstr				|	 is_power_of_2		|	 rstr_capitalizer |						  |
-|						 |	 last_word			|	 str_capitalizer	|						|
+|						 | ✅ last_word			|	 str_capitalizer	|						|
 |						 | ✅ max					| ✅ tab_mult 	 |						 |
 |						 |	 print_bits			|						|						|
 |						 |	 reverse_bits		|						|						|
@@ -36,5 +36,5 @@ Practice the exam just like you would in the real exam using this:
 
 ⚡︎ [Simulator](https://github.com/JCluzet/42_EXAM)
 
-⚡︎ [Grade me](https://grademe.fr)
+⚡︎ [Grademe](https://grademe.fr)
  
