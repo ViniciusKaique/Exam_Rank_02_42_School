@@ -9,7 +9,7 @@ In this repository, I have grouped together the various exercises that may appea
 | ✅ putstr				| ✅ do_op				|	 expand_str			| ✅ ft_itoa				|
 | ✅	ft_strcpy			| ✅ ft_atoi				| ✅ ft_atoi_base		|  ft_list_foreach		|
 | ✅	ft_strlen			| ✅ ft_strcmp			| ✅ ft_list_size		|  ft_list_remove_if	|
-| ✅	ft_swap				|	 ft_strcspn			|	 ft_range			| ✅ ft_split			|
+| ✅	ft_swap				| ✅ ft_strcspn			|	 ft_range			| ✅ ft_split			|
 | ✅ repeat_alpha		| ✅ ft_strdup			|	 ft_rrange			|  rev_wstr				|
 | ✅ rev_print		   	|	 ft_strpbrk			|	 hidenp				|  rostring				|
 | ✅ rot_13				|	 ft_strrev			| ✅ lcm					|  sort_int_tab			|
@@ -24,7 +24,6 @@ In this repository, I have grouped together the various exercises that may appea
 |						 |	 swap_bits			|						|						|
 |						 |	 union				|						|						|
 |						 |	 wdmatch 			|						|						|
-| 						 |	  print_hex			|						|						|
 
 
 ### Total
