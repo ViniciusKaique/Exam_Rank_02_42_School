@@ -21,7 +21,7 @@ In this repository, I have grouped together the various exercises that may appea
 |						 |	 print_bits			|						|						|
 |						 |	 reverse_bits		|						|						|
 |						 | ✅ snake_to_camel	  |						  |					      |
-|						 |	 swap_bits			|						|						|
+|						 | ✅ swap_bits			|						|						|
 |						 |	 union				|						|						|
 |						 |	 wdmatch 			|						|						|
 
