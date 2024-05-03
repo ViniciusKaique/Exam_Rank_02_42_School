@@ -19,7 +19,7 @@ In this repository, I have grouped together the various exercises that may appea
 |						 | ✅ last_word			 |	 str_capitalizer	  |						   |
 |						 | ✅ max				 | ✅ tab_mult 	         |						 |
 |						 | ✅ print_bits			 |						   |				       |
-|						 |	 reverse_bits		   |					     |						|
+|						 | ✅ reverse_bits		 |					       |					   |
 |						 | ✅ snake_to_camel	     |						   |				       |
 |						 | ✅ swap_bits			 |						   |					   |
 |						 |	 union				  |						    |						|
