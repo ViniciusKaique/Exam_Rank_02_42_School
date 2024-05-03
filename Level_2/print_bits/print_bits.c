@@ -6,11 +6,11 @@
 /*   By: columbux <columbux@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/03 01:52:20 by columbux          #+#    #+#             */
-/*   Updated: 2024/05/03 02:05:36 by columbux         ###   ########.fr       */
+/*   Updated: 2024/05/03 23:59:24 by columbux         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+/* #include <unistd.h> */
 
 void	print_bits(unsigned char octet)
 {
@@ -24,9 +24,10 @@ void	print_bits(unsigned char octet)
 		write(1, &result, 1);
 	}
 }
-
+/* 
 int	main(void)
 {
 	print_bits(0x42);
 	return (0);
 }
+ */

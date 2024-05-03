@@ -22,11 +22,11 @@ In this repository, I have grouped together the various exercises that may appea
 |						 | ✅ reverse_bits		 |					       |					   |
 |						 | ✅ snake_to_camel	     |						   |				       |
 |						 | ✅ swap_bits			 |						   |					   |
-|						 |	 union				  |						    |						|
-|						 |	 wdmatch 			  |						    |						| 
+|						 |	 union				   |					    |					    |
+|						 |	 wdmatch 			   |					    |					    | 
 
 ### Total
-🗂️ Total Pool of 57 Functions/Programs.
+🗂️ Total Pool of 56 Functions/Programs.
 
 # Exam Practice
 
