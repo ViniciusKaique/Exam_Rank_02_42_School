@@ -6,7 +6,7 @@
 /*   By: alex <alex@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/30 20:24:22 by columbux          #+#    #+#             */
-/*   Updated: 2024/05/16 13:07:17 by alex             ###   ########.fr       */
+/*   Updated: 2024/05/16 14:07:20 by alex             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,16 +19,18 @@ void	last_word(char *str)
 	i = 0;
 	while (str[i] != '\0')
 		i++;
- 	while (str[i] == ' ')
-		i--;
+	i -= 1;
+	if (str[i] == ' ' || str[i] == '\t')
+	{
+		while (str[i] == ' ' || str[i] == '\t')
+			--i;
+	}
 	while (str[i] != ' ' && i >= 0)
 		i--;
-//	printf("2= %i \n", i);
 	while (str[i] != '\0')
 	{
 		i++;
 		write(1, &str[i], 1);
-//	printf("3= %i \n", i);
 	}
 }
 
