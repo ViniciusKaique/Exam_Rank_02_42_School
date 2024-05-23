@@ -6,7 +6,7 @@
 /*   By: columbux <columbux@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/30 03:35:54 by ahiguera          #+#    #+#             */
-/*   Updated: 2024/04/30 19:32:41 by columbux         ###   ########.fr       */
+/*   Updated: 2024/05/23 17:28:53 by columbux         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,8 @@ void	fprime(int nbr)
 	int	div;
 
 	div = 1;
+	if (a < 0)
+		return ;
 	if (nbr == 1)
 		printf("1");
 	while (nbr > div++)
