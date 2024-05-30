@@ -6,7 +6,7 @@
 /*   By: columbux <columbux@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/30 18:23:46 by ahiguera          #+#    #+#             */
-/*   Updated: 2024/05/30 19:35:36 by columbux         ###   ########.fr       */
+/*   Updated: 2024/05/30 19:43:30 by columbux         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,9 +25,9 @@ int     *ft_range(int start, int end)
 	while (i < len)
 	{
 		if (start <= end)
-			result[i++] = (char)start++;
+			result[i++] = start++;
 		else if (start >= end)
-			result[i++] = (char)start--;
+			result[i++] = start--;
 	}
 	return(result);
 }
